@@ -20,3 +20,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::middleware('auth')->group(function () {
+    Route::view('demo-default', 'demo_default');
+    Route::view('demo-ignore-activity', 'demo_ignore_activity');
+    Route::view('demo-keep-alive', 'demo_keep_alive');
+});
