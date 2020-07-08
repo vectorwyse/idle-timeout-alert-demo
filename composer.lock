@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8b2c9b8e7a8021ec3a9b04291c5979c",
+    "content-hash": "807186b110818b41ae6824f955a6db75",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3751,6 +3751,46 @@
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "time": "2019-10-24T08:53:34+00:00"
+        },
+        {
+            "name": "vectorwyse/idle-timeout-alert",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vectorwyse/idle-timeout-alert.git",
+                "reference": "68c5453cdb24ba8b56457cde8cc083ef4efdb04b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vectorwyse/idle-timeout-alert/zipball/68c5453cdb24ba8b56457cde8cc083ef4efdb04b",
+                "reference": "68c5453cdb24ba8b56457cde8cc083ef4efdb04b",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Vectorwyse\\IdleTimeoutAlert\\IdleTimeoutAlertServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Vectorwyse\\IdleTimeoutAlert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeffrey Li",
+                    "email": "jeffrey@vectorwyse.com"
+                }
+            ],
+            "description": "A Laravel package for alerting idle sessions about to expire.",
+            "time": "2020-07-07T00:45:21+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
