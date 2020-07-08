@@ -21,6 +21,7 @@ npm install && npm run dev
 ```
 
 Go to `/register` and create a user
+
 Login and view the demo pages
 
 Use network and vue devtools to see what is happening in the background.
